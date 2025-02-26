@@ -26,4 +26,4 @@ jobs:
 
       - name: Lint SQL files
         run: |
-          run: sqlfluff lint --dialect mysql '**/*.sql'
+           sqlfluff lint --dialect mysql '**/*.sql'
